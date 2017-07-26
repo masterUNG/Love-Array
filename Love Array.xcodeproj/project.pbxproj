@@ -12,6 +12,7 @@
 		C49C153C1F2840C00002091E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49C153A1F2840C00002091E /* Main.storyboard */; };
 		C49C153E1F2840C00002091E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C49C153D1F2840C00002091E /* Assets.xcassets */; };
 		C49C15411F2840C00002091E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49C153F1F2840C00002091E /* LaunchScreen.storyboard */; };
+		C49C15491F286EFC0002091E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = C49C15481F286EFC0002091E /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C49C153D1F2840C00002091E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C49C15401F2840C00002091E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C49C15421F2840C00002091E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C49C15481F286EFC0002091E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		C49C152A1F2840C00002091E = {
 			isa = PBXGroup;
 			children = (
+				C49C15481F286EFC0002091E /* README.md */,
 				C49C15351F2840C00002091E /* Love Array */,
 				C49C15341F2840C00002091E /* Products */,
 			);
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C49C15491F286EFC0002091E /* README.md in Sources */,
 				C49C15391F2840C00002091E /* ViewController.swift in Sources */,
 				C49C15371F2840C00002091E /* AppDelegate.swift in Sources */,
 			);
@@ -301,6 +305,7 @@
 				C49C15471F2840C00002091E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
