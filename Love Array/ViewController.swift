@@ -29,7 +29,19 @@ class ViewController: UIViewController {
         print("strArrayMember after ==> \(strArrayMember)")
         
         //Show Member
-        memberLabel.text = strArrayMember[0]
+        //memberLabel.text = strArrayMember[0]
+        
+        var intIndex = 0
+        var strShow = ""
+        
+        
+        for strShowMyMember in strArrayMember {
+        
+            strShow = strShow + strShowMyMember + "\n"
+            print("strShow ==> \(strShow)")
+            memberLabel.text =  strShow
+        
+        }
         
         
     }   // addButton
